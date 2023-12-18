@@ -19,6 +19,10 @@ img {
     width: 80px;
 }
 
+.message__input {
+    height: 150px;
+}
+
 /*##### debug */
 .debug__bgcolor {
     background-color: orange;
