@@ -1,8 +1,12 @@
-.header__bgcolor {
+img {
+    width: 100%;
+}
+
+.primary__bgcolor {
     background-color: #2C3E50;
 }
 
-.profile__bgcolor {
+.secondary__bgcolor {
     background-color: #1ABC9C;
 }
 
