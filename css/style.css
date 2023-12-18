@@ -1,3 +1,21 @@
-.header__color {
+.header__bgcolor {
     background-color: #2C3E50;
+}
+
+.profile__bgcolor {
+    background-color: #1ABC9C;
+}
+
+.profile__img {
+    width: 200px;
+}
+
+.line__separator {
+    padding: 2px;
+    width: 80px;
+}
+
+/*##### debug */
+.debug__bgcolor {
+    background-color: orange;
 }
