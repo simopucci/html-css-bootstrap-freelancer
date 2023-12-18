@@ -10,6 +10,10 @@ img {
     background-color: #1ABC9C;
 }
 
+.primarylight__bgcolor {
+    background-color: #3A546D;
+}
+
 .profile__img {
     width: 200px;
 }
