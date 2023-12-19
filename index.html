@@ -17,23 +17,26 @@
 <body>
 
     <!-- Header -->
-    <header>
-        <div class="primary__bgcolor py-4 px-3 text-emphasis-primary text-white fw-bold d-flex justify-content-between align-items-center">
-            START BOOTSTRAP
-            <button class="bg-transparent border border-white px-3 text-secondary fs-3 rounded">
-                <i class="fa-solid fa-bars"></i>
-            </button>
+    <header class="primary__bgcolor py-4 px-3 text-emphasis-primary text-white fw-bold d-flex justify-content-between align-items-center">
+        START BOOTSTRAP
+        <div class="bg-transparent border border-white px-3 text-secondary fs-3 rounded d-inline-block d-md-none">
+            <i class="fa-solid fa-bars"></i>
         </div>
+
+        <div class="d-none d-md-inline-block">
+            <a href="#" class="text-white px-3">PORTFOLIO</a><a href="#" class="text-white px-3">ABOUT</a><a href="#" class="text-white px-3">CONTACT</a>
+        </div>
+    
     </header>
 
     <main>
 
         <!-- Profile section -->
-        <section class="secondary__bgcolor pb-4 text-center text-white">
+        <section class="secondary__bgcolor pb-4 text-center text-white container-fluid">
             <img src="./img/avatar.svg" alt="avatar" class="profile__img my-4">
 
-            <div class="d-block p-3 fs-2 fw-semibold debug__bgcolor">
-                TEXT
+            <div class="d-block p-3 fs-2 fw-semibold container">
+                START BOOTSTRAP
             </div>
 
             <!-- Separator -->
@@ -44,8 +47,8 @@
             </div>
             <!-- Separator end -->
 
-            <div class="d-block p-1 fs-6 debug__bgcolor">
-                TEXT-TEXT-TEXT
+            <div class="p-1 container">
+                GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
             </div>
         </section>
 
@@ -63,35 +66,35 @@
 
             <div class="container-fluid my-2">
                 <div class="row gy-4">
-                    <div class="col-12">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <img src="./img/cabin.png" alt="cabin" class="d-block rounded-4">
                     </div>
 
-                    <div class="col-12">
-                        <img src="./img/cabin.png" alt="cabin" class="d-block rounded-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="./img/cake.png" alt="cabin" class="d-block rounded-4">
                     </div>
 
-                    <div class="col-12">
-                        <img src="./img/cabin.png" alt="cabin" class="d-block rounded-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="./img/circus.png" alt="cabin" class="d-block rounded-4">
                     </div>
 
-                    <div class="col-12">
-                        <img src="./img/cabin.png" alt="cabin" class="d-block rounded-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="./img/game.png" alt="cabin" class="d-block rounded-4">
                     </div>
 
-                    <div class="col-12">
-                        <img src="./img/cabin.png" alt="cabin" class="d-block rounded-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="./img/safe.png" alt="cabin" class="d-block rounded-4">
                     </div>
 
-                    <div class="col-12">
-                        <img src="./img/cabin.png" alt="cabin" class="d-block rounded-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="./img/submarine.png" alt="cabin" class="d-block rounded-4">
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- About section -->
-        <section class="text-white pt-5 pb-4 px-5 secondary__bgcolor">
+        <section class="text-white pt-5 pb-4 px-5 secondary__bgcolor container-fluid">
             <h2 class="fw-semibold pb-2 text-center">ABOUT</h2>
 
             <!-- Separator -->
@@ -101,85 +104,110 @@
                 <div class="line__separator bg-white rounded"></div>
             </div>
             <!-- Separator end -->
-
-            <div class="debug__bgcolor mx-5 mt-3 p-2 fs-5">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo aspernatur qui sed quidem quaerat. Quaerat vel eligendi quos, labore voluptatibus, sequi sit tempore ab praesentium rem harum inventore soluta ullam?
-            </div>
-
-            <div class="debug__bgcolor mx-5 mt-3 p-2 fs-5">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo aspernatur qui sed quidem quaerat. Quaerat vel eligendi quos, labore voluptatibus, sequi sit tempore ab praesentium rem harum inventore soluta ullam?
-            </div>
-            
-            <div class="mt-5 d-flex justify-content-center">
-                <button class="bg-transparent border border-white px-3 py-2 fs-5 rounded text-white">
-                    <i class="fa-solid fa-download"></i>
-                    Download
-                </button>
+            <div class="row mx-5 mt-3 fs-5">
+                <div class="debug__bgcolor col-12 mb-5 col-md-6">
+                    Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+                </div>
+    
+                <div class="debug__bgcolor col-12 mb-5 col-md-6">
+                    Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+                </div>
+                
+                <div class="d-flex justify-content-center">
+                    <button class="bg-transparent border border-white px-3 py-2 fs-5 rounded text-white">
+                        <i class="fa-solid fa-download"></i>
+                        Download
+                    </button>
+                </div>
             </div>
         </section>
         
         <!-- contact section -->
-        <section class="pt-5 pb-4 px-5">
+        <section class="mx-5 mt-3 p-2 px-5 py-4">
             <h2 class="fw-semibold pb-2 text-center">CONTACT ME</h2>
 
             <!-- Separator -->
-            <div class="separator__container d-flex justify-content-center p-3">
+            <div class="separator__container d-flex justify-content-center p-3 mb-3">
                 <div class="line__separator primary__bgcolor rounded"></div>
                 <i class="fa-solid fa-star fa-xl mx-2"></i>
                 <div class="line__separator primary__bgcolor rounded"></div>
             </div>
             <!-- Separator end -->
 
-            <div class="mx-5 py-2 fs-5 border-bottom border-dark-subtle">
-                text
-            </div>
+            <form action="https://learning.tizianonicolai.com/request-catcher/" method="POST">
+                <div class="mb-3">
+                    <label for="name" class="form-label fs-5">Name</label>
+                    <input type="text" name="name" id="name" class="input__container">
+                </div>
 
-            <div class="mx-5 py-2 fs-5 border-bottom border-dark-subtle">
-                text
-            </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label fs-5">Email Address</label>
+                    <input type="email" name="email" id="email" class="input__container">
+                </div>
 
-            <div class="mx-5 py-2 fs-5 border-bottom border-dark-subtle">
-                text
-            </div>
+                <div class="mb-3">
+                    <label for="number" class="form-label fs-5">Phone Number</label>
+                    <input type="number" name="number" id="number" class="input__container">
+                </div>
 
-            <div class="mx-5 mt-3 py-2 fs-5 border-bottom border-dark-subtle message__input">
-                Message
-            </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label fs-5">Message</label>
+                    <textarea name="message" id="message" rows="5" class="input__container"></textarea>
+                </div>
 
-            <button class="btn secondary__bgcolor text-white mx-5 py-1 mt-3 fs-5" type="submit">
-                Send
-            </button>
+                <button class="btn secondary__bgcolor text-white">Send</button>
+            </form>
         </section>
     </main>
 
     <footer>
         <!-- Location section -->
-        <section class="primarylight__bgcolor py-5 px-3">
-            <div class="debug__bgcolor text-center">
-                <h2>text</h2>
-                Lorem ipsum dolor sit amet.
-            </div>
-
-            <div class="debug__bgcolor text-center mt-5">
-                Lorem ipsum dolor sit amet.
-            </div>
-
-            <div class="debug__bgcolor text-center">
-                buttons
-            </div>
-
-            <div class="debug__bgcolor text-center mt-5">
-                <h2>text</h2>
-                Lorem ipsum dolor sit amet.
+        <section class="primarylight__bgcolor py-5 px-3 text-white container-fluid">
+            <div class="row d-flex align-items-center gy-5">
+                <div class="col-12 col-md-4 text-center">
+                    <h2 class="fs-6">LOCATION</h2>
+                    2215 John Daniel Drive Clark, MO 54243
+                </div>
+                
+                <div class="col-12 col-md-4 text-center">
+                    AROUND THE WEB
+                    
+                    <div class="text-center social__container">
+                        <div class="d-flex justify-content-center">
+                            <div class="social__circle rounded-circle border d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            
+                            <div class="social__circle rounded-circle border d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-google-plus-g"></i>
+                            </div>
+                            
+                            <div class="social__circle rounded-circle border d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            
+                            <div class="social__circle rounded-circle border d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <h2 class="fs-6">ABOUT FREELANCER</h2>
+                    Freelance is a free to use, open source Bootstrap theme created by <a href="#" class="secondary__color">Start Bootstrap</a>.
+                </div>
             </div>
         </section>
 
         <!-- Copyright section -->
-        <section class="primary__bgcolor pb-5 pt-4">
+        <section class="primary__bgcolor pb-5 pt-4 text-white">
             <div class="debug__bgcolor text-center p-3 fs-6">
-                Lorem ipsum dolor sit amet consectetur.
+                Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019
             </div>
         </section>
     </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

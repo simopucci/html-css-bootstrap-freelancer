@@ -2,6 +2,10 @@ img {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 .primary__bgcolor {
     background-color: #2C3E50;
 }
@@ -14,6 +18,10 @@ img {
     background-color: #3A546D;
 }
 
+.secondary__color {
+    color: #1ABC9C;
+}
+
 .profile__img {
     width: 200px;
 }
@@ -23,11 +31,24 @@ img {
     width: 80px;
 }
 
+
 .message__input {
     height: 150px;
 }
 
-/*##### debug */
-.debug__bgcolor {
-    background-color: orange;
+.input__container {
+    border: none;
+    border-bottom: 1px solid #888888;
+    width: 100%;
+}
+
+/* .social__container {
+    width: 100%;
+    margin: 0 auto;
+} */
+
+.social__circle {
+    width: 50px;
+    height: 50px;
+    margin: 0.4rem;
 }
